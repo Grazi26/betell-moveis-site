@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dp-color-ground: #f3eee4;
+  --dp-color-ground-2: #e4dbcc;
+  --dp-color-ink: #262321;
+  --dp-color-ink-2: #5f5750;
+  --dp-color-field: #262321;
+  --dp-color-field-deep: #302c29;
+  --dp-color-field-line: #46403a;
+  --dp-color-on-field: #f3eee4;
+  --dp-color-on-field-2: #c6bdb0;
+  --dp-color-panel: #e4dbcc;
+  --dp-color-panel-line: #c6b89f;
+  --dp-color-accent: #b69355;
+  --dp-color-accent-text: #76591f;
+  --dp-color-accent-light: #d2b071;
+  --dp-color-rule: #d5cab8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: var(--dp-color-ground);
+  color: var(--dp-color-ink);
+  font-family: var(--font-instrument-sans), "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.55;
+}
+
+/* Foco visível, obrigatório em todo campo interativo */
+:focus-visible {
+  outline: 2px solid var(--dp-color-accent);
+  outline-offset: 2px;
+}
+
+/* Botão primário: ativo desce 1px, exceto com motion reduzido */
+.btn-press:active {
+  transform: translateY(1px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn-press:active {
+    transform: none;
+  }
+}
+
+/* Numeral romano na margem */
+.roman-marker {
+  font-family: var(--font-eb-garamond), Georgia, serif;
+  color: var(--dp-color-accent-text);
+  font-size: 0.875rem;
+  letter-spacing: 0.08em;
+}
+
+.gold-rule {
+  background-color: var(--dp-color-accent);
+}
+
+.framed-image {
+  border: 1px solid var(--dp-color-accent);
+  padding: 6px;
+}
