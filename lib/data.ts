@@ -10,26 +10,26 @@ export const categories: Category[] = [
     longDescription:
       "Projetamos dormitórios sob medida que aproveitam cada centímetro com acabamento macio, iluminação integrada e ferragens de alta durabilidade — do guarda-roupa ao closet completo.",
     coverImage: {
-      src: "/images/categorias/quartos/capa.jpg",
+      src: "/images/categorias/quartos/capa.png",
       alt: "Quarto planejado com guarda-roupa sob medida e iluminação embutida",
       width: 1200,
       height: 1500,
     },
     gallery: [
       {
-        src: "/images/categorias/quartos/01.jpg",
+        src: "/images/categorias/quartos/01.png",
         alt: "Guarda-roupa planejado de porta lisa com puxadores perfil",
         width: 1200,
         height: 900,
       },
       {
-        src: "/images/categorias/quartos/02.jpg",
+        src: "/images/categorias/quartos/02.png",
         alt: "Closet sob medida com prateleiras e nichos iluminados",
         width: 1200,
         height: 900,
       },
       {
-        src: "/images/categorias/quartos/03.jpg",
+        src: "/images/categorias/quartos/03.png",
         alt: "Cabeceira planejada com criados-mudos integrados",
         width: 1200,
         height: 900,
@@ -45,26 +45,26 @@ export const categories: Category[] = [
     longDescription:
       "Painéis ripados, estantes com nichos e racks suspensos projetados para equilibrar madeira, laca e metal — compondo salas de estar e de jantar com presença e leveza.",
     coverImage: {
-      src: "/images/categorias/salas/capa.jpg",
+      src: "/images/categorias/salas/capa.png",
       alt: "Sala de estar com painel de TV ripado planejado",
       width: 1200,
       height: 1500,
     },
     gallery: [
       {
-        src: "/images/categorias/salas/01.jpg",
+        src: "/images/categorias/salas/01.png",
         alt: "Painel ripado com rack suspenso e iluminação indireta",
         width: 1200,
         height: 900,
       },
       {
-        src: "/images/categorias/salas/02.jpg",
+        src: "/images/categorias/salas/02.png",
         alt: "Estante planejada com nichos para livros e objetos decorativos",
         width: 1200,
         height: 900,
       },
       {
-        src: "/images/categorias/salas/03.jpg",
+        src: "/images/categorias/salas/03.png",
         alt: "Sala de jantar com buffet planejado sob medida",
         width: 1200,
         height: 900,
@@ -80,26 +80,26 @@ export const categories: Category[] = [
     longDescription:
       "Cozinhas planejadas com módulos em madeira e laço metálico, iluminação em LED embutida sob bancada e armários superiores em vidro — o encontro entre função e alto padrão.",
     coverImage: {
-      src: "/images/categorias/cozinhas/capa.jpg",
+      src: "/images/categorias/cozinhas/capa.png",
       alt: "Cozinha planejada com marcenaria em madeira, bancada iluminada e armários em vidro",
       width: 1200,
       height: 1500,
     },
     gallery: [
       {
-        src: "/images/categorias/cozinhas/capa.jpg",
+        src: "/images/categorias/cozinhas/capa.png",
         alt: "Cozinha planejada com iluminação embutida sob a bancada e armários em vidro",
         width: 1200,
         height: 900,
       },
       {
-        src: "/images/categorias/cozinhas/02.jpg",
+        src: "/images/categorias/cozinhas/02.png",
         alt: "Armários superiores planejados com portas de vidro e perfil de alumínio",
         width: 1200,
         height: 900,
       },
       {
-        src: "/images/categorias/cozinhas/03.jpg",
+        src: "/images/categorias/cozinhas/03.png",
         alt: "Ilha planejada com bancada em quartzo e iluminação em LED",
         width: 1200,
         height: 900,
@@ -115,26 +115,26 @@ export const categories: Category[] = [
     longDescription:
       "Gabinetes suspensos, cubas esculpidas e espelheiras planejadas que transformam o lavabo em um detalhe de assinatura dentro do projeto arquitetônico.",
     coverImage: {
-      src: "/images/categorias/lavabos/capa.jpg",
+      src: "/images/categorias/lavabos/capa.png",
       alt: "Lavabo planejado com gabinete suspenso e espelheira sob medida",
       width: 1200,
       height: 1500,
     },
     gallery: [
       {
-        src: "/images/categorias/lavabos/01.jpg",
+        src: "/images/categorias/lavabos/01.png",
         alt: "Gabinete suspenso planejado com cuba esculpida",
         width: 1200,
         height: 900,
       },
       {
-        src: "/images/categorias/lavabos/02.jpg",
+        src: "/images/categorias/lavabos/02.png",
         alt: "Espelheira planejada com iluminação integrada",
         width: 1200,
         height: 900,
       },
       {
-        src: "/images/categorias/lavabos/03.jpg",
+        src: "/images/categorias/lavabos/03.png",
         alt: "Lavabo com marcenaria em madeira e metal escovado",
         width: 1200,
         height: 900,
@@ -150,26 +150,26 @@ export const categories: Category[] = [
     longDescription:
       "Recepções, balcões de atendimento e mobiliário corporativo sob medida, pensados para comunicar a identidade da marca com a mesma precisão de um projeto residencial.",
     coverImage: {
-      src: "/images/categorias/comercial/capa.jpg",
+      src: "/images/categorias/comercial/capa.png",
       alt: "Recepção comercial planejada com balcão sob medida",
       width: 1200,
       height: 1500,
     },
     gallery: [
       {
-        src: "/images/categorias/comercial/01.jpg",
+        src: "/images/categorias/comercial/01.png",
         alt: "Balcão de recepção planejado em madeira e laca",
         width: 1200,
         height: 900,
       },
       {
-        src: "/images/categorias/comercial/02.jpg",
+        src: "/images/categorias/comercial/02.png",
         alt: "Mobiliário corporativo sob medida com iluminação embutida",
         width: 1200,
         height: 900,
       },
       {
-        src: "/images/categorias/comercial/03.jpg",
+        src: "/images/categorias/comercial/03.png",
         alt: "Ambiente comercial com marcenaria planejada e identidade visual integrada",
         width: 1200,
         height: 900,
