@@ -17,19 +17,19 @@ export const categories: Category[] = [
     },
     gallery: [
       {
-        src: "/images/categorias/quartos/01.png",
+        src: "/images/categorias/quartos/capa.png",
         alt: "Guarda-roupa planejado de porta lisa com puxadores perfil",
         width: 1200,
         height: 900,
       },
       {
-        src: "/images/categorias/quartos/02.png",
+        src: "/images/categorias/quartos/capa.png",
         alt: "Closet sob medida com prateleiras e nichos iluminados",
         width: 1200,
         height: 900,
       },
       {
-        src: "/images/categorias/quartos/03.png",
+        src: "/images/categorias/quartos/capa.png",
         alt: "Cabeceira planejada com criados-mudos integrados",
         width: 1200,
         height: 900,
