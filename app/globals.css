@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 :root {
+  --font-eb-garamond: "EB Garamond", Georgia, "Times New Roman", serif;
+  --font-instrument-sans: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
   --dp-color-ground: #f3eee4;
   --dp-color-ground-2: #e4dbcc;
   --dp-color-ink: #262321;
